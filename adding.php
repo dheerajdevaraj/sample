@@ -17,7 +17,7 @@ if(isset($_POST['submit1']))
 $var1= $_POST['num1'];
 $var2= $_POST['num2'];
 $sum= $var1+$var2;
-echo "The sum of $var1 and $var2 is: ".$sum;
+echo "The addition of $var1 and $var2 is: ".$sum;
 }
 
 if(isset($_POST['submit2']))
@@ -25,7 +25,7 @@ if(isset($_POST['submit2']))
 $var1= $_POST['num1'];
 $var2= $_POST['num2'];
 $sub= $var1-$var2;
-echo "The substract of $var1 and $var2 is: ".$sub;
+echo "The substraction of $var1 and $var2 is: ".$sub;
 }
 
 if(isset($_POST['submit3']))
